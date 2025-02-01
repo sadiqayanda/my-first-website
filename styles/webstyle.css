@@ -1,0 +1,91 @@
+body {
+    margin: auto;
+    font-family: sans-serif;
+    font-weight: 500px;
+}
+
+ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.list {
+    padding-top: 40px;
+}
+
+
+ul li a {
+    margin: 0px 10px ;
+    text-decoration: none;
+    color: darkblue;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+h1 {
+    font-size: xxx-large;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffff;
+    color: darkblue;
+    width: 95%;
+    margin: auto;
+}
+
+.unordered-list {
+    display: flex;
+}
+
+.p {
+    background-color: #ffff00;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 1px;
+}
+
+.nav2 {
+    letter-spacing: 5px;
+    font-size: 50px;
+}
+
+.parent-nav {
+    width: 80%;
+    margin: 0 auto;
+    color: #ffff;
+    letter-spacing: normal;
+
+}
+
+.nav3 {
+    margin-top: -60px;
+}
+
+main {
+    background-image: url(../image/cars.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: -60px auto;
+}
+
+.btn-container {
+    margin-top: 100px;
+    padding-bottom: 280px;
+    text-decoration: none;
+    border: none;
+}
+
+button {
+    background-color: #ffff00;
+    border: none;
+    margin: 0  15px;
+    padding: 15px 20px ;
+    font-size: 20px;
+    color: blue;
+}
+
+button:hover {
+    background-color: white;
+}
