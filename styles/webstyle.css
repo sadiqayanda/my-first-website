@@ -13,6 +13,12 @@ ul li {
     padding-top: 40px;
 }
 
+@media (max-width:900px) {
+    .list{
+        display: none;
+    }
+}
+
 
 ul li a {
     margin: 0px 10px ;
